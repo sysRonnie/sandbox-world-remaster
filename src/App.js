@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import BackgroundAnimation from './BackgroundAnimation';
+import Countdown from './Countdown';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BackgroundAnimation />
+      <h1 className='neonTitle'>ⓢⓐⓝⓓⓑⓞⓧ ⓦⓞⓡⓛⓓ</h1>
+      <h2 className='subTitle'>Ⓔⓧⓟⓛⓞⓡⓔ.  Ⓒⓞⓝⓝⓔⓒⓣ.  Ⓘⓜⓐⓖⓘⓝⓔ.</h2>
+      
+      <h3 className='subTitle'> ⓙⓤⓝⓔ ①②, ②⓪②④ </h3>
+     
     </div>
   );
 }
